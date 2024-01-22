@@ -1,0 +1,8 @@
+{
+  "index":{
+    "fields":["docType","userId"]
+  },
+  "ddoc":"contract_M_IndexDoc1",
+  "name":"contract_M_Index1",
+  "type":"json"
+}

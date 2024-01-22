@@ -1,0 +1,309 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "index",
+						"type": "uint8"
+					}
+				],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "x",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct BLS.E1Point",
+						"name": "m",
+						"type": "tuple"
+					},
+					{
+						"internalType": "string",
+						"name": "idInfo",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getSig",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "x",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct BLS.E1Point",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"name": "pkList",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "pki",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "regist",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "idInfo",
+						"type": "string"
+					}
+				],
+				"name": "requestSig",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "signList",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "x",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct BLS.E1Point",
+						"name": "sig_CA",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "x",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct BLS.E1Point",
+						"name": "sig_O",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "x",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct BLS.E1Point",
+						"name": "sig_C",
+						"type": "tuple"
+					},
+					{
+						"internalType": "bool",
+						"name": "CA",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "O",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "C",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "uploadSig",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/e-voting scheme/Registration.sol": "Registration"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/e-voting scheme/BLS.sol": {
+			"keccak256": "0x025cbd7be4084fea2006d81c8f635767c8fe094999d846c34034d2dba70b4fa6",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://ec5461c1ad5ea585ab5312859131b491caab3c3831f45ceb9977017349cc96cb",
+				"dweb:/ipfs/QmbdZ95bnmuPGhkJLJBin1G62B77iEEJCyidsZBBKyRpJS"
+			]
+		},
+		"contracts/e-voting scheme/ModUtils.sol": {
+			"keccak256": "0xfdfa8f92e76312e87abb670a63dedefcd6af1bc6c03c649e1b721f87994a13b7",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://336bd4c706059569d180a8db91ad886f1b116ae884adb31ab0c7fae660fda1fb",
+				"dweb:/ipfs/QmUUaUgVy9stWbGGmZppYQEUaqLqmm52Vtunn2qMywyMJL"
+			]
+		},
+		"contracts/e-voting scheme/Registration.sol": {
+			"keccak256": "0xf02fa22087aaba1975bbce292b30ef2ee5b1e17c97de1d2de294323e94c846ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1af9d66b1b2460911e8665aabd2e9c5a22010d01b5aeb979e6829774c11786e0",
+				"dweb:/ipfs/QmUcptRsAzGfvFkMkasLRrSoeXbyg1HXghptjGNSWi1ZBr"
+			]
+		}
+	},
+	"version": 1
+}

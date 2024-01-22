@@ -1,0 +1,301 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "round",
+						"type": "uint256"
+					}
+				],
+				"name": "counting",
+				"outputs": [
+					{
+						"internalType": "uint256[10]",
+						"name": "",
+						"type": "uint256[10]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "c0",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "x",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Utils.record[]",
+						"name": "s_i",
+						"type": "tuple[]"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "c0",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "x",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Utils.record",
+						"name": "ballot",
+						"type": "tuple"
+					}
+				],
+				"name": "decrypt",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "s",
+						"type": "string"
+					}
+				],
+				"name": "getChar",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "round",
+						"type": "uint256"
+					}
+				],
+				"name": "getballots",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "c0",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "x",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Utils.record[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "toBytes",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "b",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "toString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "round",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "c0",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "x",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Utils.record",
+						"name": "s_i",
+						"type": "tuple"
+					}
+				],
+				"name": "uploadSi",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/e-voting scheme/Couting.sol": "Counting"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/e-voting scheme/BLS.sol": {
+			"keccak256": "0x025cbd7be4084fea2006d81c8f635767c8fe094999d846c34034d2dba70b4fa6",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://ec5461c1ad5ea585ab5312859131b491caab3c3831f45ceb9977017349cc96cb",
+				"dweb:/ipfs/QmbdZ95bnmuPGhkJLJBin1G62B77iEEJCyidsZBBKyRpJS"
+			]
+		},
+		"contracts/e-voting scheme/Couting.sol": {
+			"keccak256": "0x103de0fddfc7d24ac812f5701f30f21da4c66456ce3c21f960757776973e6a3b",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://feb0f86ffb5b97861028cf1a859dd8d86e060563125c7f2f4f87a01c60b9066b",
+				"dweb:/ipfs/QmPhHgqynsRHQwUd9GJZjsL7TSXrhtGFtUzk4M9CmZWb5X"
+			]
+		},
+		"contracts/e-voting scheme/Initiate.sol": {
+			"keccak256": "0xba61aa68d9ea3a2c7f8bdbd2ab74dd561de256010870b792bd7c7661640bedea",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://f6f044dcfc4837144ccb4c8ece807b92fb449b9b7d531dcdebac856d9408b37b",
+				"dweb:/ipfs/QmaqQ5acgWgQosrgPaLmMDuQh3Z5eUqHnCDmmGB6CsmpsR"
+			]
+		},
+		"contracts/e-voting scheme/ModUtils.sol": {
+			"keccak256": "0xfdfa8f92e76312e87abb670a63dedefcd6af1bc6c03c649e1b721f87994a13b7",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://336bd4c706059569d180a8db91ad886f1b116ae884adb31ab0c7fae660fda1fb",
+				"dweb:/ipfs/QmUUaUgVy9stWbGGmZppYQEUaqLqmm52Vtunn2qMywyMJL"
+			]
+		},
+		"contracts/e-voting scheme/Utils.sol": {
+			"keccak256": "0x65d445908bb0fe29b31a83f68b05c6d1ef0069d41dd95971e0d53ad37ec969e2",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://c12cf4d2fb8ca5d38b7e03edd510e7e93788d6864457ff6e421d3fa19e4ff760",
+				"dweb:/ipfs/Qmbm86h79iPhF7if3NyffbpdS6pUfoNA1N2zSpm8QjM27x"
+			]
+		},
+		"contracts/e-voting scheme/Voting.sol": {
+			"keccak256": "0x2b2e73519ec4354b0546c8cec65fd6680db08f34c4795a623630259e4ba340ab",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fca6b75feccf3b7cf32dff1a9f27c921031dbdd04e95cdb30dabe21bfac10f00",
+				"dweb:/ipfs/QmU6mHtmu9rCPzbWmAkbuPDo8XtKxYxnuzJgrc6r2diNah"
+			]
+		}
+	},
+	"version": 1
+}

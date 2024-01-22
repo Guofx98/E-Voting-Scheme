@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getVoting",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "title",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "options",
+								"type": "string[]"
+							},
+							{
+								"internalType": "uint256",
+								"name": "deadline",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Utils.voting",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "string[]",
+						"name": "options",
+						"type": "string[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "deadline",
+						"type": "uint256"
+					}
+				],
+				"name": "initiateVoting",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/e-voting scheme/Initiate.sol": "Initiate"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/e-voting scheme/Initiate.sol": {
+			"keccak256": "0x52c681b39454a04c1630a0b8d56622d3da127836bfcae04552afb15a8b088b1e",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://2d9f5ebfbe71e5ab856b2e9872befc75e925fe6da8401f0a5b8e572607454277",
+				"dweb:/ipfs/QmS6PznG5cQ2zCmdZWnnqJRZymCvx4BJKcfiRKFDtzxqcr"
+			]
+		},
+		"contracts/e-voting scheme/Utils.sol": {
+			"keccak256": "0x65d445908bb0fe29b31a83f68b05c6d1ef0069d41dd95971e0d53ad37ec969e2",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://c12cf4d2fb8ca5d38b7e03edd510e7e93788d6864457ff6e421d3fa19e4ff760",
+				"dweb:/ipfs/Qmbm86h79iPhF7if3NyffbpdS6pUfoNA1N2zSpm8QjM27x"
+			]
+		}
+	},
+	"version": 1
+}

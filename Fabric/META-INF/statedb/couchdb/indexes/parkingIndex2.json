@@ -1,0 +1,8 @@
+{
+  "index":{
+    "fields":["docType","communityId"]
+  },
+  "ddoc":"parkingIndexDoc2",
+  "name":"parkingIndex2",
+  "type":"json"
+}

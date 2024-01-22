@@ -1,0 +1,8 @@
+{
+  "index":{
+    "fields":["docType","hasResult"]
+  },
+  "ddoc":"proposalIndexDoc2",
+  "name":"proposalIndex2",
+  "type":"json"
+}

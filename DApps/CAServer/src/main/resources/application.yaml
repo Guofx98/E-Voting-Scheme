@@ -1,0 +1,6 @@
+server:
+  port: 8091
+spring:
+  data:
+    mongodb:
+      uri: mongodb://guofx:980923@localhost:27017/CAServer?authSource=admin

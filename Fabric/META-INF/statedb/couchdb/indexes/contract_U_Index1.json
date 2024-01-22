@@ -1,0 +1,8 @@
+{
+  "index":{
+    "fields":["docType","tenantId","state"]
+  },
+  "ddoc":"contract_U_IndexDoc1",
+  "name":"contract_U_Index1",
+  "type":"json"
+}

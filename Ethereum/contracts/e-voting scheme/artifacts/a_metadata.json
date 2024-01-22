@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getStringByIndex",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/e-voting scheme/test.sol": "a"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/e-voting scheme/test.sol": {
+			"keccak256": "0x412de68d197c18edac8cfad8ac0c96c68d998e9c740b8b8175dfde2a349fd393",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bd1ca99e1111ea016c639c2eddce84d99dc42010d916496a7b2f60f10caf6951",
+				"dweb:/ipfs/QmfMJL888TvjtTJ76dsdjDm3kFJBUzz4ETyZYi5A7N9RMF"
+			]
+		}
+	},
+	"version": 1
+}
